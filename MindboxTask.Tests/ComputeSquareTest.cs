@@ -21,7 +21,6 @@ public class ComputeSquareTest
             new CircleSquareType(circle), 
             new TriangleSquareType(triangle));
 
-        // по умолчанию рассчет площади неизвестно фигуры 5 * 7 * 7
         var shapeSquare = compute.Square();
         var circleSquare = compute.CircleSquare();
         var triangleSquare = compute.TriangleSquare();
